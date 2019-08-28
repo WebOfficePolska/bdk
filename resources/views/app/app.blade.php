@@ -215,6 +215,14 @@ url('fonts/LatoLatin-ThinItalic.ttf') format('truetype');font-style:italic;font-
               </ul> --}}
 
               <ul class="navbar-nav nav-tabs ml-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link" href="dodajfirme" id="" role="button" aria-haspopup="true" aria-expanded="false">
+                     <i class="far fa-plus-square"></i> <strong> DODAJ FIRMĘ </strong>
+                  </a>
+                </li>
+
+
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <strong><i class="fas fa-bars"></i>  MENU</strong>
