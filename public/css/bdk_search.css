@@ -1,0 +1,45 @@
+
+			#bdk_box { 
+				font-family: 'Lato';
+				background: url('//baza-kamieniarska.pl/images/bdk_bg.png') no-repeat;
+				background-size: cover;
+				border-radius: 5pt;
+				width: 260px;
+				font-size: 8pt;
+				color: #fff;
+				padding: 5pt 10pt;
+				text-align: justify; 
+			}
+
+
+			#bdk_box input[type=text] {
+				font-size: 12px;
+			  	padding: 10px;
+			  	border: 1px solid #ccc;
+			  	float: left;
+			  	width: 70%;
+				height: 15px;
+			  	background: #f1f1f1;
+			}
+
+
+			#bdk_box button {
+				font-size: 15px;
+				float: left;
+				width: 15%;
+				padding: 10px 0;
+				background: #e9e9e9;
+				border: 1px solid #ccc;
+				border-left: none; /* Prevent double borders */
+				cursor: pointer;
+				line-height: 15px;
+				margin: 0;
+			}
+
+
+			#bdk_box form::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+

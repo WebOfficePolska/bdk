@@ -1,0 +1,31 @@
+
+
+<style type="text/css">
+#bdk_plugin { background: #fff301;	width: 350px; }
+button#send { font-size: 12px; font-weight: bolder; width: 100%; padding: 5px 0 5px 0; margin-top: 10px; background: #000;	border: 0px; border-radius: 4px; color: #fff301; }
+input#search { font-size: 12px; margin-left: 0px; width: 100%; border: 1px solid #000; border-radius: 4px; padding: 5px;}
+</style>
+
+<div>
+	<div>
+		<a href="http://baza-kamieniarska.pl"><img src="./logo_nk_zolte.jpg" alt="Baza Danych Kamieniarstwa"></a>
+	</div>
+
+	<div id="bdk_plugin">
+
+		<div style="float: left; width: 120px;" >
+			<div>&nbsp;</div>
+		</div>
+		<div style="float: left; width: 220px;">
+			<form method="GET" action="http://wyszukiwarka.baza-kamieniarska.pl/kamieniarstwo/wyszukiwarka.nsf/wyszukiwanie.xsp">
+				<div>
+					<input type="text" name="szukaj" placeholder="np. parapet Warszawa"  id="search">
+				</div>		
+				<div>
+					<button type="submit" id="send">SZUKAJ</button>
+				</div>
+			</form>		
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</div>
