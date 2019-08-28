@@ -162,6 +162,11 @@ url('fonts/LatoLatin-ThinItalic.ttf') format('truetype');font-style:italic;font-
         margin-left: 20px;
       }
 
+      button#basic-addon1 {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+      }
 
 
     </style>
